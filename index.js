@@ -3,31 +3,31 @@ let movies = [
     name: "falcon and the winter soldier",
     des:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-    image: "images/slider 2.png"
+    image: "https://raw.githubusercontent.com/UrsKarthik1/hotstar-clone/main/images/slider 2.PNG"
   },
   {
     name: "loki",
     des:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-    image: "images/slider 1.png"
+    image: "https://raw.githubusercontent.com/UrsKarthik1/hotstar-clone/main/images/slider 1.PNG"
   },
   {
     name: "wanda vision",
     des:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-    image: "images/slider 3.png"
+    image: "https://raw.githubusercontent.com/UrsKarthik1/hotstar-clone/main/images/slider 3.PNG"
   },
   {
     name: "raya and the last dragon",
     des:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-    image: "images/slider 4.png"
+    image: "https://raw.githubusercontent.com/UrsKarthik1/hotstar-clone/main/images/slider 4.PNG"
   },
   {
     name: "luca",
     des:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-    image: "images/slider 5.png"
+    image: "https://raw.githubusercontent.com/UrsKarthik1/hotstar-clone/main/images/slider 5.PNG"
   }
 ];
 
@@ -71,9 +71,7 @@ const createSlide = () => {
   sliders.push(slide);
 
   if (sliders.length) {
-    sliders[0].style.marginLeft = `calc(-${100 * (sliders.length - 2)}% - ${
-      30 * (sliders.length - 2)
-    }px)`;
+    sliders[0].style.marginLeft = `calc(-${100 * (sliders.length - 2)}% - ${30 * (sliders.length - 2)}px)`;
   }
 };
 
